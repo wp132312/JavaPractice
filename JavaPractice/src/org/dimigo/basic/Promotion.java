@@ -13,5 +13,4 @@ public class Promotion {
 		System.out.println("점포 수 : "+String.format("%,d", multies)+"개\n\n");
 		System.out.println("연간 인건비 : "+String.format("%,d", result)+"원");
 	}
-
 }

@@ -12,7 +12,6 @@ public class Operator {
 		ss=(s1+s2)*sh/2;
 		ps=p*ph;
 		
-		
 		System.out.println("<<도형 넓이 비교>>");
 		System.out.println("사다리꼴 넓이 : "+ss);
 		System.out.println("평행사변형 넓이 : "+ps+"\n\n");

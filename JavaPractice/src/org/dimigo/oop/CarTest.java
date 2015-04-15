@@ -7,15 +7,17 @@ package org.dimigo.oop;
  * 2. Date 		: 2015. 4. 14.
  *
  * @author		: ryusim
- * @version		: 1.0 
+ * @version		: 1.1
  */
 
 public class CarTest {
 	public static void main(String[] args) {
-		Car hyun = new Car();
-		Car kia = new Car();
-		Car sam = new Car();
+		Car2 hyun = new Car2("현대자동차", "제네시스", "검정색", 225, 50000000);
+		Car2 kia = new Car2("기아자동차", "K7", "흰색", 246, 40000000);
+		Car2 sam = new Car2("삼성자동차", "SM7", "회색", 200, 38000000);
 		
+	/*	Setter
+	 
 		hyun.setCompany("현대자동차");
 		hyun.setModel("제네시스");
 		hyun.setColor("검정색");
@@ -33,6 +35,7 @@ public class CarTest {
 		sam.setColor("회색");
 		sam.setMaxSpeed(200);
 		sam.setPrice(38000000);
+ 	*/
 		
 		System.out.println("<< 자동차 목록 >>");
 		System.out.println("제조사명 : "+hyun.getCompany());

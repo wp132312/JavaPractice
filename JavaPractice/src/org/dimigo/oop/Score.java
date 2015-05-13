@@ -45,6 +45,12 @@ public class Score {
 		sb.append("영어 점수:");
 		sb.append(eng);
 		sb.append("점\n");
+		sb.append("총점:");
+		sb.append(kor+mat+eng);
+		sb.append("점\n");
+		sb.append("평균:");
+		sb.append(String.format("%.1f", (float)(kor+mat+eng)/3));
+		sb.append("점");
 		
 		System.out.println(sb);
 	}

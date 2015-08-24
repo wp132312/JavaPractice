@@ -16,9 +16,6 @@ package org.dimigo.oop;
  */
 public class PiggyBankTest {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		FamilyMember dad = new FamilyMember("아빠");

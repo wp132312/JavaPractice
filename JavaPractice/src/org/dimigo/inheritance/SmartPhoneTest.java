@@ -22,7 +22,7 @@ public class SmartPhoneTest {
 		System.out.println(i.toString());
 		i.turnOn();
 		i.pay();
-		i.useSpecialFunction(i);
+		i.useSpecialFunction();
 		i.turnOff();
 		
 		System.out.println();
@@ -30,7 +30,7 @@ public class SmartPhoneTest {
 		System.out.println(g.toString());
 		g.turnOn();
 		g.pay();
-		g.useSpecialFunction(g);
+		g.useSpecialFunction();
 		g.turnOff();
 	}
 }

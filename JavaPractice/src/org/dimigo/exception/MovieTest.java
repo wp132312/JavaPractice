@@ -35,7 +35,7 @@ public class MovieTest {
 		}
 	}
 	
-	public static void buyTicket(Movie movie, int age) throws Exception{
+	private static void buyTicket(Movie movie, int age) throws Exception{
 		if(movie.getLimitAge()>age) {
 			throw new AgeCheckException(movie);
 		} else {

@@ -11,6 +11,7 @@ package org.dimigo.exception;
  * @author		: ryusim
  * @version		: 1.0 
  */
+
 public class MovieTest {
 
 	public static void main(String[] args) {

@@ -51,6 +51,10 @@ public class MelonGenreChart {
 		map.put("발라드", ballad);
 		
 		printMap(map);
+		
+		System.out.println("----<< 전체 리스트 삭제 >>----");
+		map.clear();
+		printMap(map);
 	}
 	
 	public static void printMap(Map<String, List<Music>> map) {

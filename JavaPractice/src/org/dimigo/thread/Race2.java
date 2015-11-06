@@ -12,12 +12,12 @@ package org.dimigo.thread;
  * @version		: 1.0 
  */
 
-public class Race {
+public class Race2 {
 
 	public static void main(String[] args) {	
 		System.out.println("main thread start");
-		Thread t1 = new Runner("최재혁");
-		Thread t2 = new Runner("박민준");
+		Thread t1 = new Thread(new Runner2("최재혁"));
+		Thread t2 = new Thread(new Runner2("박민준"));
 		
 		t1.setPriority(Thread.MAX_PRIORITY);
 		t2.setPriority(Thread.MIN_PRIORITY);
